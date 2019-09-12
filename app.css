@@ -5,6 +5,15 @@ body{
     font-size: 1.123rem;
     line-height: 1.8;
     overflow: auto;
+}
+
+.masterContainer{
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainContainer{
     max-width: 1200px;
 }
 
@@ -70,6 +79,7 @@ h3{
 }
 
 #mainNavbar{
+    width: 100%;
     margin-bottom: 1.5rem;
     background: rgba(255, 255, 255, 0);
     transition: background 500ms;
@@ -316,6 +326,11 @@ footer div.row:first-child, .footerBox{
     html{
         font-size: 14px;
     }
+
+    .masterContainer{
+        display: flex;
+    }
+
     .blockContainer{
         height: 26rem;
         max-height: 90vh;
