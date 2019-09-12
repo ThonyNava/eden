@@ -232,15 +232,25 @@ div.form-check input {
 }
 
 .btn-primary {
+    outline: none;
     color: #fff;
     background-color: #55c8ff;
     border-color: #55c8ff;
 }
 
 button.btn-primary:hover {
+    outline: none;
     color: #55c8ff;
     background-color: #fff;
     border-color: #55c8ff;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.navbar-toggler{
+    outline: none;
 }
 
 .navbar-dark .navbar-toggler {
