@@ -9,8 +9,6 @@ body{
 
 .masterContainer{
     width: 100vw;
-    flex-direction: column;
-    align-items: center;
 }
 
 .mainContainer{
@@ -322,6 +320,8 @@ footer div.row:first-child, .footerBox{
 
     .masterContainer{
         display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .blockContainer{
