@@ -308,13 +308,6 @@ footer div.row:first-child, .footerBox{
     }
 }
 
-@media (max-width: 1200px) {
-    #headingGroup h1{
-        font-weight: 100;
-        font-size: 3rem;
-    }
-}
-
 @media (min-width: 600px) {
     .h-100{
         height: auto;
@@ -336,3 +329,10 @@ footer div.row:first-child, .footerBox{
         max-height: 90vh;
     }
   }
+
+  @media (max-width: 1200px) {
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
